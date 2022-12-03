@@ -1,0 +1,37 @@
+.card{
+    text-align: center;
+    margin-top: 25vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#increment-btn{
+    background: rgb(124, 1, 1);
+}
+#save-btn{
+    background: green;
+}
+#clear-btn{
+    background: grey;
+}
+
+@media screen and (max-width: 607px) {
+    .card{
+        margin: 0;
+        padding: 0;
+    }
+}
